@@ -78,6 +78,7 @@ Once you connect, set up a database called testdb
 https://wiki.mysql.org/wiki/First_steps
 
     CREATE DATABASE testdb;
+    USE testdb;
 
 https://www.tutorialspoint.com/mysql/mysql_create_database.htm
 
