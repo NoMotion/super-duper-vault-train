@@ -181,6 +181,7 @@ Add the `vault_db_engine_admin` policy, make a token from it, and use that token
       rotation and prevent read access to password information.
 
 OR
+```
     export VAULT_DBA_TOKEN=e49fd95b-36e5-edd8-535f-588e96b456ab
     export VAULT_TOKEN=$VAULT_DBA_TOKEN
     [vagrant@instance7 mariadb]$ cat mariadb.json
@@ -210,7 +211,7 @@ OR
       "auth": null
     }
     [vagrant@instance7 mariadb]$
-
+```
 
 
 # Enable MariaDB Database Secrets Engine
